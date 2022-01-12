@@ -1,0 +1,150 @@
+/* For Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E5E5E5;
+}
+
+/* Top Players Styles  */
+
+.container{
+    Width: 870px;
+    /* Height: 679px; */
+    background: white;
+    margin-top: 20px;
+    padding: 5px;
+}
+.box{
+    padding: 30px;
+}
+.part{
+    padding-bottom: 30px;
+}
+h1{
+    color: #562EFF;
+    font-size: 24px;
+    line-height: 36px;
+    /* margin-top: 0px; */
+}
+hr{
+    border: 100x solid yellow;
+}
+.tp{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 30px
+} 
+.players{
+    display: flex;
+}
+.players img{
+    width: 56px;
+    height: 56px;
+} 
+.pn{
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+/*--------------------
+----- For Top Blogs --
+---------------------*/
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+
+
+.blog{
+    display: flex;
+}
+.blog-img img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+    font-size: 20px;
+}
+.blog-aurthor, a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* ------------------
+----Lates Courses----
+--------------------*/
+.part3{
+    margin-left: 16px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    font-size: 20.0336px;
+    color: #1E1E1E;
+    width: 252.42px;
+    height: 269.79px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.course img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    margin: 0px;
+    font-size: 18px;
+}
+small{
+    color: #ED6B4F;
+    font-size: 10.6913px;
+    line-height: 17px;
+}
+.course-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star{
+    display: flex;
+    margin: 0px;
+    /* Width: 73.76px;
+    Height: 11.81px; */
+}
+.fa-star.fill{
+    color: #FFC014;
+    /* width: 12.39px;
+    height: 11.81px; */
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+/* .ratting{
+    width: 21.37px;
+    height: 22.7px; 
+    font-size: 14.6913px;
+    color: #A2A2A2;
+} */
+.clock{
+    display: flex;
+    align-items: center;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    width: 94.83px;
+    height: 29.38px;
+    font-size: 15px;
+}
